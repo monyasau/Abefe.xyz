@@ -2,22 +2,36 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./bootstrap.min.css">
+    <link rel="stylesheet" href="./bootstrap.min.css" />
     <link rel="stylesheet" href="style.css" />
     <script src="https://cdn.tailwindcss.com"></script>
     <title>Abefe</title>
   </head>
-  <body class="md:px-20 md:py-8 ">
+  <body class="md:px-20 md:py-8">
     <nav class="flex items-center justify-between p-4">
-      <div class="font-bold text-black border-none bg-transparent">Thisisabefe</div>
-      <div class="flex items-center jus md:space-x-12 sm:space-x-12">
-        <a href="#" class="font-bold">Home</a>
-        <a href="#" class="font-normal">Designs</a>
-        <a href="#" class="font-normal">Music</a>
-        <a href="#" class="font-normal">Contract</a>
+      <div class="font-bold text-black border-none bg-transparent">
+        Thisisabefe
+      </div>
+
+      <div class="dropdown  visible md:invisible">
+        Menu        <svg
+          id="dropdownMenuToggle"
+          class="fill-current h-4 w-4"
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 20 20"
+        >
+          <path d="M6 8l4 4 4-4 2 2-6 6-6-6 2-2z"></path>
+        </svg>
+      </div>
+
+      <div class=" sm:invisible flex items-center justify-between md:visible md:space-x-12 sm:space-x-12" id="rightNavSect">
+        <a href="#" class="font-bold md:font-normal block md:inline">Home</a>
+        <a href="#" class="font-normal block md:inline">Designs</a>
+        <a href="#" class="font-normal block md:inline">Music</a>
+        <a href="#" class="font-normal block md:inline">Contract</a>
       </div>
     </nav>
   </body>
-<script src="./script.js"></script>
 
+  <script src="./script.js"></script>
 </html>
