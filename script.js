@@ -1,8 +1,11 @@
-document.getElementById("dropdownMenuToggle").addEventListener("click", function () {
-  var menu = document.getElementById("rightNavSect");
-  if (menu.classList.contains("hidden")) {
-    menu.classList.remove("hidden");
-  } else {
-    menu.classList.add("hidden");
-  }
+let dropdownIcon = document.getElementById("dropdownMenuToggleIcon");
+let backdrop = document.getElementById("backdrop");
+let defaultMenu = document.getElementById("rightNavSect");
+let smNavBar = document.getElementById("smallScreenNavBar");
+
+dropdownIcon.addEventListener("click", () => {
+  //   if (defaultMenu.classList.contains("hidden"))
+  defaultMenu.classList.add("hidden");
+  backdrop.classList.remove("hidden");
+  smNavBar.classList.remove("hidden")
 });
