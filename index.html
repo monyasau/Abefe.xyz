@@ -3,7 +3,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- <script src="https://cdn.tailwindcss.com"></script> -->
-    <link rel="stylesheet" href="./tailwind.css">
+    <link rel="stylesheet" href="./tailwind.css" />
     <link rel="stylesheet" href="style.css" />
     <title>Abefe</title>
   </head>
@@ -14,7 +14,7 @@
         Thisisabefe
       </div>
 
-      <div class="dropdown align-right  md:hidden items-center flex">
+      <div class="dropdown align-right md:hidden items-center flex">
         <a href="#" class="text-slate-600 font-bold mx-4">Menu</a>
 
         <svg width="24" height="24" id="dropdownMenuToggleIcon">
@@ -30,81 +30,80 @@
         class="hidden items-center md:visible md:flex md:space-x-12 sm:space-x-12"
         id="rightNavSect"
       >
-        <a href="#" class="px-6 font-semibold md:font-normal block md:inline">Home</a>
-        <a href="#" class="px-6 font-normal block md:inline">Designs</a>
-        <a href="#" class="px-6 block md:inline">Music</a>
-        <a href="#" class="pl-6 block md:inline">Contact</a>
-      </div>
-
-
-
-
-      <div id="smallScreenNavBar"
-        class="hidden fixed top-4 right-4 w-full max-w-xs bg-white rounded-lg shadow-lg p-6 text-base font-semibold text-slate-900 dark:bg-slate-800 dark:text-slate-400 dark:highlight-white/5"
-      >
-        <div id="closeSmNav"
-          class="absolute top-5 right-5 w-8 h-8 flex justify-center text-slate-500 hover:text-slate-600 dark:text-slate-400 dark:hover:text-slate-300"
+        <a
+          href="#"
+          class="px-6 text-black font-semibold md:font-normal block md:inline"
+          >Home</a
         >
-        <svg
-            viewBox="0 0 10 10"
-            class="w-2.5 h-2.5 overflow-visible"
-          >
-            <path
-              d="M0 0L10 10M10 0L0 10"
-              fill="none"
-              stroke="currentColor"
-              stroke-width="2"
-              stroke-linecap="round"
-            ></path>
-          </svg>
-        </div>
-        <ul class="space-y-6">
-          <li>
-          <a
-              class="hover:text-sky-500"
-              href="/"
-              >Home</a
-            >
-          </li> 
-
-        <li> 
-            <a
-              href="/designs"
-              class="hover:text-sky-500"
-              >Designs</a
-            >
-          </li> 
-
-          <li>
-            <a class="hover:text-sky-500" href="/music"
-              >Music</a
-            >
-          </li> 
-
-          <li>
-            <a
-              class="hover:text-red-500"
-              href="/Contact"
-              >Contact</a
-            >
-          </li> 
-
-        </ul>
-
-
-
+        <a href="#" class="nav-link px-6 font-normal block md:inline"
+          >Designs</a
+        >
+        <a href="#" class="nav-link px-6 block md:inline">Music</a>
+        <a href="#" class="nav-link pl-6 block md:inline">Contact</a>
+      </div>
     </nav>
+
+    <div
+      id="smallScreenNavBar"
+      class="hidden fixed top-4 right-4 w-full max-w-xs bg-white rounded-lg shadow-lg p-6 text-base font-semibold text-slate-900 dark:bg-slate-800 dark:text-slate-400 dark:highlight-white/5"
+    >
+      <div
+        id="closeSmNav"
+        class="absolute top-5 right-5 w-8 h-8 flex justify-center text-slate-500 hover:text-slate-600 dark:text-slate-400 dark:hover:text-slate-300"
+      >
+        <svg viewBox="0 0 10 10" class="w-2.5 h-2.5 overflow-visible">
+          <path
+            d="M0 0L10 10M10 0L0 10"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+          ></path>
+        </svg>
+      </div>
+      <ul class="space-y-6">
+        <li>
+          <a class="hover:text-sky-500" href="/">Home</a>
+        </li>
+
+        <li>
+          <a href="/designs" class="hover:text-sky-500">Designs</a>
+        </li>
+
+        <li>
+          <a class="hover:text-sky-500" href="/music">Music</a>
+        </li>
+
+        <li>
+          <a class="hover:text-red-500" href="/Contact">Contact</a>
+        </li>
+      </ul>
+    </div>
+
     <div
       id="backdrop"
       class="hidden fixed inset-0 bg-black/20 backdrop-blur-sm dark:bg-slate-900/80"
     ></div>
 
-    <div class="main">
-
-      <div class="font- font-size-8">A creative product & music designer.</div>
+    <div class="main-first-section">
+      <div class="flex">
+        <div class="main-first-section-text">
+          <div class="font-bold main-header text-black text-5xl">
+            A creative product & music designer.
+          </div>
+          <div>
+            <p>Hi, I’m Olajide Sodiq.</p>
+            <p style="line-height: 40px">
+              A passionate UI/UX designer and a music producer
+            </p>
+            <p>based in Lagos, Nigeria.</p>
+          </div>
+        </div>
+        <img class="p-5" src="./image1.png" alt="" />
+      </div>
     </div>
 
-  </body>
+</body>
 
   <script src="./script.js"></script>
 </html>
