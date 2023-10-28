@@ -10,3 +10,12 @@ ul {
 .bold {
     font-weight: bold;
 } */
+/* Add a higher z-index for the dropdown and backdrop */
+#smallScreenNavBar {
+    z-index: 50;
+  }
+  
+  #backdrop {
+    z-index: 40;
+  }
+  

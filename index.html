@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="./tailwind.css">
     <title>Abefe</title>
   </head>
-  <body class="md:px-20 md:py-8 p-6">
+  <body class="sm:px-20 sm:py-8 p-6">
     <!-- <nav class="flex items-center justify-between p-4 my-16"> -->
     <nav class="flex items-center justify-between">
       <div class="font-bold text-black border-none bg-transparent">
@@ -27,13 +27,13 @@
       </div>
 
       <div
-        class="hidden right items-center justify-between md:visible md:flex md:space-x-12 sm:space-x-12"
+        class="hidden items-center md:visible md:flex md:space-x-12 sm:space-x-12"
         id="rightNavSect"
       >
-        <a href="#" class="font-bold md:font-normal block md:inline">Home</a>
-        <a href="#" class="font-normal block md:inline">Designs</a>
-        <a href="#" class="font-normal block md:inline">Music</a>
-        <a href="#" class="font-normal block md:inline">Contact</a>
+        <a href="#" class="px-6 font-semibold md:font-normal block md:inline">Home</a>
+        <a href="#" class="px-6 font-normal block md:inline">Designs</a>
+        <a href="#" class="px-6 block md:inline">Music</a>
+        <a href="#" class="pl-6 block md:inline">Contact</a>
       </div>
 
 
@@ -42,7 +42,7 @@
       <div id="smallScreenNavBar"
         class="hidden fixed top-4 right-4 w-full max-w-xs bg-white rounded-lg shadow-lg p-6 text-base font-semibold text-slate-900 dark:bg-slate-800 dark:text-slate-400 dark:highlight-white/5"
       >
-        <div
+        <div id="closeSmNav"
           class="absolute top-5 right-5 w-8 h-8 flex justify-center text-slate-500 hover:text-slate-600 dark:text-slate-400 dark:hover:text-slate-300"
         >
         <svg
@@ -94,12 +94,16 @@
 
 
     </nav>
-
-    <div class="font- font-size-8">A creative product & music designer.</div>
     <div
       id="backdrop"
       class="hidden fixed inset-0 bg-black/20 backdrop-blur-sm dark:bg-slate-900/80"
     ></div>
+
+    <div class="main">
+
+      <div class="font- font-size-8">A creative product & music designer.</div>
+    </div>
+
   </body>
 
   <script src="./script.js"></script>
