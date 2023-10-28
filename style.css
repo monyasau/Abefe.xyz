@@ -1,9 +1,15 @@
-/* body{
-    margin: 0;
-}
+@font-face {
+    font-family: 'Inter';
+    src: url('./Inter.ttf') format('truetype');
+  }
+  
 
 
-ul {
+body{
+font-family: 'Inter';}
+
+
+/* ul {
     list-style-type: none;
 }
 
@@ -18,4 +24,12 @@ ul {
   #backdrop {
     z-index: 40;
   }
-  
+  .logo {
+    font-family: Inter;
+font-size: 15px;
+font-weight: 700;
+line-height: 18px;
+letter-spacing: 0em;
+text-align: left;
+
+  }
