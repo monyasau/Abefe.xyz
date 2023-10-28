@@ -1,13 +1,12 @@
 @font-face {
-    font-family: 'Inter';
-    src: url('./Inter.ttf') format('truetype');
-  }
-  
+  font-family: "Inter";
+  src: url("./Inter.ttf") format("truetype");
+}
 
-
-body{
-font-family: 'Inter';}
-
+body {
+  color: #454545;
+  font-family: "Inter";
+}
 
 /* ul {
     list-style-type: none;
@@ -18,18 +17,31 @@ font-family: 'Inter';}
 } */
 /* Add a higher z-index for the dropdown and backdrop */
 #smallScreenNavBar {
-    z-index: 50;
-  }
-  
-  #backdrop {
-    z-index: 40;
-  }
-  .logo {
-    font-family: Inter;
-font-size: 15px;
-font-weight: 700;
-line-height: 18px;
-letter-spacing: 0em;
-text-align: left;
+  z-index: 50;
+}
 
-  }
+#backdrop {
+  z-index: 40;
+}
+.logo {
+  font-family: Inter;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 18px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.nav-link {
+}
+
+.main-first-section {
+  padding-top: 164px;
+  height: 400px;
+}
+
+.main-header {
+  margin-bottom: 100px;
+  /* font-size: 30px;
+    line-height: 36.31px; */
+}
