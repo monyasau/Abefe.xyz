@@ -3,6 +3,49 @@
   src: url("./Inter.ttf") format("truetype");
 }
 
+/* medium screen upward */
+@media (min-width: 768px) {
+  body {
+    padding: 50px 100px;
+  }
+
+  .main-first-section {
+    margin-top: 130px;
+    height: 400px;
+  }
+  .main-header {
+    margin-bottom: 100px;
+    margin-top: 100px;
+  }
+  .half-screen{
+    width: 50%;
+  }
+  nav {
+    /* height: px; */
+    width: 100%;
+    /* padding: 00px; */
+  }
+}
+/* small screens */
+@media (max-width: 640px) {
+  body {
+    padding: 12px;
+  }
+
+  .main-first-section {
+    margin: 50px 0;
+  }
+  .main-first-section > div {
+    flex-direction: column-reverse;
+  }
+  .main-header {
+    margin-bottom: 30px;
+    margin-top: 10px;
+  }
+
+
+}
+
 body {
   color: #454545;
   font-family: "Inter";
@@ -32,16 +75,3 @@ body {
   text-align: left;
 }
 
-.nav-link {
-}
-
-.main-first-section {
-  padding-top: 164px;
-  height: 400px;
-}
-
-.main-header {
-  margin-bottom: 100px;
-  /* font-size: 30px;
-    line-height: 36.31px; */
-}
